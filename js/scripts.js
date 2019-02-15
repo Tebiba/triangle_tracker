@@ -15,8 +15,7 @@ function triangleTracker(){
 		 window.alert('Isosceles')
 		answer.innerHTML = 'Isosceles'
 	}
-
-	else if(sideOne + sideTwo >= sideThree || sideTwo + sideThree >= sideOne || sideOne + sideThree >= sideTwo){
+	else if(sideOne + sideTwo > sideThree && sideOne + sideThree >= sideOne || sideOne + sideThree >= sideTwo){
 		console.log('not')
 		window.alert('Not a triangle')
 		answer.innerHTML = 'Not a triangle'
