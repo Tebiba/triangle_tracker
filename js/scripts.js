@@ -1,9 +1,9 @@
 function triangleTracker(){
 
-	var side1= document.querySelector('#triangle-side1').value;
-	var side2= document.querySelector('#triangle-side2').value;
-	var side3= document.querySelector('#triangle-side3').value;
-	var answer=document.querySelector('#answer');
+	var sideOne = parseInt (document.getElementById('sideOne').value;
+	var sideTwo = parseInt (document.getElementById('sideOne').value;
+	var sideThree = parseInt (document.getElementById('sideOne').value;
+	var answer = parseInt (document.getElementById('sideOne').value;
 
 	// console.log('clickes')
 	if (side1==side2 && side2==side3){
