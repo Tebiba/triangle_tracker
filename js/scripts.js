@@ -1,23 +1,22 @@
 function triangleTracker(){
 
 	var sideOne = parseInt (document.getElementById('sideOne').value;
-	var sideTwo = parseInt (document.getElementById('sideOne').value;
-	var sideThree = parseInt (document.getElementById('sideOne').value;
-	var answer = parseInt (document.getElementById('sideOne').value;
+	var sideTwo = parseInt (document.getElementById('sideTwo').value;
+	var sideThree = parseInt (document.getElementById('sideThree').value;
 
 	// console.log('clickes')
-	if (side1==side2 && side2==side3){
+	if (sideOne === sideTwo && sideOne == sideThree){
 		console.log('equal')
 		 window.alert('equilateral')
 		answer.innerHTML = 'equilateral'
 	}
-	else if(side1==side2 || side2 ==side3 || side1==side3){
+	else if(sideOne === sideTwo || sideTwo === sideThree || sideOne === sideThree){
 		console.log('iso')
 		 window.alert('Isosceles')
 		answer.innerHTML = 'Isosceles'
 	}
 
-	else if(side1+side2>=side3 || side2+side3>=side1 || side1+side3>=side2){
+	else if(sideOne + sideTwo >= sideThree || sideTwo + sideThree >= sideOne || sideOne + sideThree >= sideTwo){
 		console.log('not')
 		window.alert('Not a triangle')
 		answer.innerHTML = 'Not a triangle'
