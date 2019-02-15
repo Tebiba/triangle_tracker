@@ -1,28 +1,22 @@
 function triangleTracker(){
 
-	var sideOne = parseInt (document.getElementById('sideOne').value;
-	var sideTwo = parseInt (document.getElementById('sideTwo').value;
-	var sideThree = parseInt (document.getElementById('sideThree').value;
+	var sideOne = parseInt (document.getElementById("sideOne").value;
+	var sideTwo = parseInt (document.getElementById("sideTwo").value;
+	var sideThree = parseInt (document.getElementById("sideThree").value;
 
-	// console.log('clickes')
 	if (sideOne === sideTwo && sideOne == sideThree){
-		console.log('equal')
-		 window.alert('equilateral')
-		answer.innerHTML = 'equilateral'
+	   alert("equilateral")
+
 	}
 	else if(sideOne === sideTwo || sideTwo === sideThree || sideOne === sideThree){
-		console.log('iso')
-		 window.alert('Isosceles')
-		answer.innerHTML = 'Isosceles'
+		 alert("Isosceles")
+
 	}
-	else if(sideOne + sideTwo > sideThree && sideOne + sideThree >= sideOne || sideOne + sideThree >= sideTwo){
-		console.log('not')
-		window.alert('Not a triangle')
-		answer.innerHTML = 'Not a triangle'
+	else if(sideOne + sideTwo > sideThree && sideOne + sideThree > sideTwo && sideTwo + sideThree >sideOne){
+		alert("Scalene triangle")
+
 	}
 	else {
-		console.log('scal	')
-		 window.alert('Scalene')
-		answer.innerHTML = 'Scalene'
+    alert("Not a triangle")
 	}
-	answer.classList.remove('d-none')
+}
