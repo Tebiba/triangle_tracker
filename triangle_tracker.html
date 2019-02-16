@@ -3,28 +3,28 @@
   <head>
     <meta charset="utf-8">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script type="text/javascript" src="js/scripts.js"></script>
     <title>Triangle Tracker</title>
   </head>
   <body>
+    <div id="background">
     <h1>Triangle Tracker</h1>
     <div class="quot">
       <h3 id="quote"
-        <form action="/action_page.php">
-          Type in the measurements of three sides to know if its a triangle or not:<br>
+        <form class=<"form" action="index.html" method="post">
+
+          Type in dimensions of the three sides to know if it is a triangle or not:<br>
           <br>
-          <input type="text" stylename="firstname" value="">
-          <input type="text" stylename="firstname" value="">
-          <input type="text" stylename="firstname" value="">
+          <p>Side 1: &nbsp  <input type="number" stylename="triangle" style="height:30px; width:300px; font-size: 15px; padding: 6px; text-align: center;" placeholder="Enter a dimension" id="sideOne"></p>
           <br>
-          <input type="submit" value="Submit">
+          <P>Side 2: &nbsp <input type="number" stylename="triangle" style="height:30px; width:300px; font-size: 15px; padding: 6px; text-align: center" placeholder="Enter a dimension" id="sideTwo"></p>
+          <br>
+          <P>Side 3: &nbsp <input type="number" stylename="triangle" style="height:30px; width:300px; font-size: 15px; padding: 6px; text-align: center" placeholder="Enter a dimension" id="sideThree"></p>
+            <br>
+          <P><button type="Submit" name="button" style="height:25px; width:150px; padding: 6px; "onclick="triangleTracker()">Find out</button>
+          <input type="button" value="Reset Form" onClick="this.form.reset()"></input>
 
         </form>
-
-        <br>
-
-        <button type="button"
-        onclick="document.getElementById('demo').innerHTML = yea()">
-        Find out</button>
 
       </h3>
       </div>
