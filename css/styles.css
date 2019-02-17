@@ -8,23 +8,7 @@ body  {
   line-height: 1.7;
   font-size: 16px;
 }
-h1{
-  padding: 60px;
-}
 
-
- h3 {
-  color: #FFFFFF;
-  font-weight: 200;
-}
-
-h2  {
-  color: #FFFFFF;
-  font-weight: 200;
-  margin:0px;
-  font-size: 30px;
-  padding:
-}
 
 #background {
   background: url(../images/bg.jpg);
@@ -36,22 +20,18 @@ h2  {
   padding:0px;
 }
 
-
-}
-
-.quot {
+.tracker {
   padding: 2em;
 }
 
-.quot h3 {
+.tracker h3 {
   font-size: 20px;
-  color: #008080;
   line-height: 35px;
   font-style: normal;
   text-align: center;
+  color: #FFFFFF;
+  font-weight: 200;
 }
-
-
 
 h1  {
    font-size:60px;
@@ -72,12 +52,5 @@ h1  {
   cursor: pointer;
 }
 
-#quote {
-  color: #FFFFFF;
-  font-style: normal;
-}
-
-
 @media screen and (max-width: 768px) {
-
 }
