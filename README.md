@@ -11,7 +11,7 @@ Setup/Installation Requirements
 To start using this project ensure you have atom and git are installed in your computer then in github, git clone https://github.com/tebiba/triangle_tracker.git
 
 
-Link to Live Website:
+Link to Live Website: https://tebiba.github.io/triangle_tracker/
 
 Contact details:
 Send queries to tebiba@gmail.com
