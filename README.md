@@ -1,5 +1,5 @@
 Triangle Tracker
-This is a project of triangle tracker website, 16th February, 2018
+This is a project of triangle tracker website, 15th February, 2018
 
 By Tabitha Obara
 
@@ -7,9 +7,7 @@ Description
 This is end of week two Independent Project that entails building an application that notifies one whether a triangle is isosceles, equilateral, scalene or not a triangle at all after input of three dimensions.
 
 Setup/Installation Requirements
-To start using this project ensure you have:
-atom and git are installed in your computer
-In github, git clone https://github.com/tebiba/triangle_tracker.git
+To start using this project ensure you have atom and git are installed in your computer then in github, git clone https://github.com/tebiba/triangle_tracker.git
 
 
 Link to Live Website:
