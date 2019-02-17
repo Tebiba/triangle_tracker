@@ -24,3 +24,4 @@ function triangleTracker(){
       alert("This is not a triangle");
   }
 }
+triangleTracker();
