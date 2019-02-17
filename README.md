@@ -12,7 +12,6 @@ To start using this project ensure you have atom and git are installed in your c
 
 
 Link to Live Website:
-https://tebiba.github.io/triangle_tracker/
 
 Contact details:
 Send queries to tebiba@gmail.com
